@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.env/
+
+# macOS system files
+.DS_Store
+
+# IDE configs
+.idea/
+.vscode/
+
+# Output folders (your generated frames/videos)
+frames/
+videos/
+outputs/
+
+# Logs
+*.log
