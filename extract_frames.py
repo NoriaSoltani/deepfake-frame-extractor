@@ -26,7 +26,7 @@ def video_to_frames(video_path, output_folder, prefix="frame", size=(224, 224)):
         frame_count += 1
 
     cap.release()
-    print(f"✅ {frame_count} frames saved to {output_folder}")
+    print(f"{frame_count} frames saved to {output_folder}")
 
 
 def extract_frames_single_folder(video_folder, output_root, size=(224, 224)):
